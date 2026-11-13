@@ -1,0 +1,109 @@
+/* Reset básico */
+body, h1, h3, p, ul, li, form, input, button, table {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+/* Layout general */
+body {
+    background-color: #f4f4f9;
+    color: #333;
+    line-height: 1.6;
+}
+
+header {
+    background: #2c3e50;
+    color: #fff;
+    padding: 1rem;
+}
+
+header h1 {
+    margin-bottom: 0.5rem;
+}
+
+header ul {
+    list-style: none;
+    display: flex;
+    gap: 1rem;
+}
+
+header li {
+    display: flex;
+    flex-direction: column;
+    gap: 0.3rem;
+}
+
+/* Botones */
+button {
+    background: #3498db;
+    color: #fff;
+    border: none;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+    border-radius: 4px;
+    transition: background 0.3s ease;
+}
+
+button:hover {
+    background: #2980b9;
+}
+
+/* Inputs */
+input[type="text"], input[type="submit"] {
+    padding: 0.4rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+/* Contenedor principal */
+main#cuerpo, main#cuerpo2 {
+    padding: 1rem;
+}
+
+/* Usuarios */
+#contenedor-usuarios {
+    background: #fff;
+    border: 1px solid #ddd;
+    margin-bottom: 1rem;
+    padding: 1rem;
+    border-radius: 6px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+#contenedor-usuarios h3 {
+    margin-bottom: 0.5rem;
+    color: #2c3e50;
+}
+
+/* Tablas */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 1rem;
+}
+
+th, td {
+    padding: 0.6rem;
+    text-align: left;
+    border: 1px solid #ccc;
+}
+
+th {
+    background: #3498db;
+    color: #fff;
+}
+
+tr:nth-child(even) {
+    background: #f9f9f9;
+}
+
+/* Footer */
+footer {
+    background: #2c3e50;
+    color: #fff;
+    text-align: center;
+    padding: 0.5rem;
+    margin-top: 2rem;
+}

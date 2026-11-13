@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Examen</title>
+    <link rel="stylesheet" href="style.css">
+    <Script src="controlador.js" defer></Script>
+</head>
+<body id="todo">
+    <header id="encabezado">
+        <div>
+            <h1>Opciones</h1>
+            <ul>
+                <li>
+                    <label for="add">Agregar</label>
+                    <button onclick="addUser();">Agregar Nuevo Usuario</button>
+                </li>
+                <li>
+                    <label for="delete">Eliminar</label>
+                    <input type="text" id="deleteBox">
+                    <button onclick="deleteUser();">Eliminar Usuario</button>
+                </li>
+                <li>
+                    <label for="estado">Estado</label>
+                    <input type="text" id="estado">
+                    <button onclick="filterByEstado();">Enviar</button>
+                </li>
+                 <li>
+                   <label for="rol">Rol</label>
+                    <input type="text" id="rol">
+                    <button onclick="filterByRol();">Enviar</button>
+                </li>
+                <li>
+                    <label for="tabla">Crear Tabla</label>
+                    <button id="btnTabla" onclick="createTable()">crear</button>
+                </li>
+                <li>
+                    <label for="deDonde">A partir de que posisicion quieres ver</label>
+                    <input type="number" id="num">
+                    <button id="btnApartir" onclick="filterByNumber()">Filtrar</button>
+                </li>
+            </ul>
+        </div>
+    </header>
+    <main id="cuerpo";
+>
+    </main>
+    <main id="cuerpo2">
+        
+    </main>
+    <footer id="piePagina"> </footer>
+</body>
+</html>
